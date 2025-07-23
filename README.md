@@ -15,67 +15,23 @@ Well, if it seems to think this is a great idea and it's public domain, so......
 
 ## Features
 
-- Classic Tetris gameplay
+- Classic Tetris gameplay with smooth controls
 - All 7 standard pieces (I, O, T, S, Z, J, L)
 - Line clearing with scoring
 - Increasing difficulty levels
-- NO external dependencies beyond standard C library
-- Works on any Linux system with GCC
+- Arrow keys + WASD support
+- Space bar for instant drop
+- Clean NCurses interface
 
 ## Quick Start
 
 ```bash
+# Install dependencies
+sudo apt update
+sudo apt install gcc libncurses-dev
+
+# Get the game
 git clone https://github.com/funtech64/Tetris.git
 cd Tetris
 make
 ./tetris
-```
-
-## Controls
-
-- **A/D** - Move left/right
-- **S** - Soft drop (move down faster)
-- **W** - Rotate piece
-- **Q** - Quit game
-
-## Installation
-
-To install system-wide:
-
-```bash
-make install
-```
-
-Then just run `tetris` from anywhere.
-
-To uninstall:
-
-```bash
-make uninstall
-```
-
-## Compilation Requirements
-
-- GCC (any recent version)
-- Standard C library
-- POSIX-compliant terminal
-
-That's it. No ncurses, no pkg-config, no other dependencies.
-
-## Tested On
-
-- Ubuntu 20.04+ (including cloud instances)
-- Debian 10+
-- Any modern Linux distribution
-
-## License
-
-Public Domain - do whatever you want with it.
-
-## Contributing
-
-This is intentionally simple. If you want to add features, please keep the zero-dependency philosophy.
-
----
-
-*Made with frustration and determination when bsdgames wouldn't install properly.*
