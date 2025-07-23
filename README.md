@@ -1,3 +1,6 @@
+Alas - doesn't work yet... Please stay tuned!!
+
+
 # tetris
 Ubuntu-BSD Tetris... FIXED!! My ###, just give me command-line classic TETRIS!!" 🎮
 I had been working in git, got frustrated, missed my freeBSD tetris and Ubuntu's symlinks are all bad.
