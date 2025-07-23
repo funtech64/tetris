@@ -1,5 +1,5 @@
 # tetris
-Ubuntu-BSD Tetris... FIXED!! My ###, just give me command-line classic TETRIS!!"
+Ubuntu-BSD Tetris... FIXED!! My ###, just give me command-line classic TETRIS!!" 🎮
 I had been working in git, got frustrated, missed my freeBSD tetris and Ubuntu's symlinks are all bad.
 
 # Ubuntu-BSD Tetris
@@ -35,3 +35,35 @@ git clone https://github.com/funtech64/Tetris.git
 cd Tetris
 make
 ./tetris
+
+Controls
+
+Arrow Keys or WASD - Move and rotate
+Space Bar - Instant drop
+Q or ESC - Quit game
+
+Installation
+To install system-wide:
+bashmake install
+Then just run tetris from anywhere.
+To uninstall:
+bashmake uninstall
+Dependencies
+
+GCC compiler
+NCurses development library (libncurses-dev)
+
+On Ubuntu/Debian:
+bashsudo apt install gcc libncurses-dev
+Tested On
+
+Ubuntu 20.04+ (including cloud instances)
+Debian 10+
+Any modern Linux distribution with NCurses
+
+License
+Public Domain - do whatever you want with it.
+Contributing
+This is intentionally simple. If you want to add features, please keep the zero-external-dependency philosophy.
+
+Created by funtech64 when bsdgames wouldn't install properly.
