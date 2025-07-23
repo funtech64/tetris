@@ -1,15 +1,17 @@
 # tetris
 Ubuntu-BSD Tetris... FIXED!! My ###, just give me command-line classic TETRIS!!"
+I had been working in git, got frustrated, missed my freeBSD tetris and Ubuntu's symlinks are all bad.
 
 # Ubuntu-BSD Tetris
 
 > *"Just give me command-line classic TETRIS"*
 
-A simple, dependency-free Tetris game that actually compiles and runs without any bullshit.
+A simple, dependency-free Tetris game that actually compiles and runs without any sh...
 
 ## Why This Exists
 
-Because trying to install bsdgames is a nightmare of broken symlinks, missing dependencies, and general frustration. This is a clean, simple Tetris implementation that just works.
+Because trying to install bsdgames is a nightmare of broken symlinks, missing dependencies, and general frustration. This is a clean, simple Tetris implementation that just works. Prompting for a solution in Claude Sonnet, I actually made the thing F#-Bomb on the chat... 
+Well, if it seems to think this is a great idea and it's public domain, so............... :-)
 
 ## Features
 
