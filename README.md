@@ -1,8 +1,21 @@
-Alas - doesn't work yet... Please stay tuned!!
-
-
 # tetris
-Ubuntu-BSD Tetris... FIXED!! My ###, just give me command-line classic TETRIS!!" 🎮
+
+⚠️ **STATUS: WORK IN PROGRESS** ⚠️  
+*Game compiles and runs but controls are not yet responsive like BSD tetris. Looking for contributors to help fix the timing/input handling!*
+
+## Known Issues
+
+- ❌ Controls are sluggish compared to classic BSD tetris
+- ✅ Game compiles and runs 
+- ✅ All pieces and gameplay work
+- ✅ No dependency hell
+
+**Help wanted!** If you know how to make terminal input more responsive like the original BSD games, please contribute!
+
+## Tetris
+---
+
+Ubuntu-BSD Tetris... FIXED!! My ###, just give me command-line classic TETRIS!!"
 I had been working in git, got frustrated, missed my freeBSD tetris and Ubuntu's symlinks are all bad.
 
 # Ubuntu-BSD Tetris
